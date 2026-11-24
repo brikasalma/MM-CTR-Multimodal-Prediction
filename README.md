@@ -3,17 +3,33 @@
 Multimodal CTR prediction using a Deep Interest Network (DIN) for the
 MM-CTR Challenge at The Web Conference 2025 (MicroLens dataset).
 
+## Author
+
+- Name: Salma Brika
+- GitHub: [@brikasalma](https://github.com/brikasalma)
+- Codabench username: `B_user`
+- Submission ID: 1065165
+
 ## Results
 
-| Version | Model | AUC (Task 1 & 2) | Codabench Submission ID |
-|---------|-------|------------------|-------------------------|
-| V1      | DIN   | 0.7402           | 1065165                 |
+| Version | Model | AUC (Task 1 & 2) | Codabench Submission ID | Rank |
+|---------|-------|------------------|-------------------------|------|
+| V1      | DIN   | 0.7402           | 1065165                 | 6th  |
+
+Submission date: 2026-11-23
+
+### Leaderboard
+
+My submission appears under the username `B_user` (row 6, ID 1065165).
+
+![Codabench leaderboard](images/leaderboard.png)
 
 ## Repository contents
 
 - `mmctr-microlens-x2-pipeline.ipynb`: full pipeline (data loading,
   feature processing, DIN training, prediction generation)
 - `prediction_din_org5.zip`: prediction file submitted to Codabench (V1)
+- `images/leaderboard.png`: screenshot of the Codabench leaderboard
 - `.gitignore`: excludes datasets and large files
 - `README.md`: project description
 
